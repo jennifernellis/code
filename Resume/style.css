@@ -50,3 +50,13 @@ header {
   footer {
     text-align: center;
   }
+
+  button {
+  
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: mediumaquamarine;
+    border: none;
+    text-align: center;
+  }
