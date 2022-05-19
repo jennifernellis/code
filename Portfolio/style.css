@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root {
+  --main-font: 'Poppins', sans-serif;
+  --secondary-font: helvetica;
+}
+
+header {
+    text-align: center;
+    background: hotpink;
+    font-family: var(--main-font);
+    font-size: 25px;
+    padding: .5px;
+  }
+  
+  body {
+    background: pink;
+  }
+  
+  img {
+    width: 100%;
+    display: flex;
+  }
+  
+  main {
+    max-width: 80ch;
+    margin: 3em auto;
+  }
+  
+  section {
+    background: linen;
+    margin: 1em 0;
+  }
+  
+  section h3 {
+    color: white;
+    background: hotpink;
+    padding: .5em;
+    margin: 0;
+    font-family: var(--main-font);
+  }
+  
+  section p {
+    padding: .5em;
+    margin: 0;
+    font-family: var(--secondary-font);
+  }
+  
+  a {
+    color: black;
+  }
+  
+  footer {
+    text-align: center;
+  }
